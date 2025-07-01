@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q_HtF1cXjEehqupiJJQJUg" Reference="RrhmqsXZCUeKwls8dVqWIw/6MtgzT9y_kGXnyWWmhWvgA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FndOverview" CVScreenId="31e7d371-bb11-40b7-b9bf-3c82106f2a31" DesignTimeRectangle="628, 333, 672, 20" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='' /&gt;" Guid="2d8dda9d-ec0e-4fce-b653-34633d020618" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='saa2ljmpk' title='Search Person - Person Management - Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="31e7d371-bb11-40b7-b9bf-3c82106f2a31" CvTextArea="668, 275, 54, 19" CvTextArgument="Error" CvType="Text" DesignTimeRectangle="669, 271, 608, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl class='xl0' type='' tag='DIV' aaname='Error' check:innerText='Error' /&gt;" Guid="b5244009-2cbf-47b1-bc77-9908b5709d20" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5867faa64d11721ccfb4bc37538d5aff.png" xmlns="">0or6kOUpdjEyW5juhfpLsyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

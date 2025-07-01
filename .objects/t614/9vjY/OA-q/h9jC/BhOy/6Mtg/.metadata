@@ -1,0 +1,16 @@
+﻿{
+  "Name": "SpecialChar_Error",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "6MtgzT9y_kGXnyWWmhWvgA",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/6MtgzT9y_kGXnyWWmhWvgA",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/BhOyvqP0nEGYs9wiHpXssA",
+  "Created": "2025-01-28T12:13:42.9530265Z",
+  "Updated": "2025-06-26T08:37:16.2048103Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

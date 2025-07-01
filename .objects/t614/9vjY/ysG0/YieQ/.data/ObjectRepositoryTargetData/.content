@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BQS1j7SOCEOppbiwbe3new" Reference="RrhmqsXZCUeKwls8dVqWIw/YieQSE_F80-pW8Dm2JMT8A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FndOverview" CVScreenId="f796f81e-f3ef-432e-93e2-c70e6b694f7c" DesignTimeRectangle="1841, 206, 41, 41" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='IMG' class='xjd' aaname='Settings and Actions' /&gt;" Guid="e043fde3-51c0-414e-a1fd-ab0e8691b844" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ckpkq62y4' title='Search Person - Person Management - Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b57d8637-6866-4b00-babc-78fda2286160" CvElementArea="1784, 174, 32, 31" CvType="Icon" DesignTimeRectangle="1769, 203, 47, 47" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl class='xiz' tag='TABLE' /&gt;&lt;webctrl type='' tag='svg' class='svg-bkgd10 xi6' aaname='' check:text='Open the Manage Presence panel. Current status: Not Available' /&gt;" Guid="38efd930-ad2c-4fee-b89a-66f677e0736b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJqSURBVFhH7ZbvS1NRGMf9d4zCEishK1PLflAUWVKIFBIWRERQtka9SNQs7QeUmWYiERQVSv0Dpm4zLXvjdtcb98Jt2YsJQ1nrxfbU88iu97Szu/OjZMR94LPL/Z7nnH049+6wok0b1kEh4wjq4gjq4gjq4gjq8n8J9vY8gi2lJdyxf4WwIMphTfq8QpJ3u25DKpXKov/JY25/LoQFUQrlRCVfv3pJvd+iUZNk8gdl+2truHN4SD1iGclM39HDB81scOApZQ/udTO9dkj/SEQlI5Ew9VjH6+uOUDY2Osr02iEtiOSTxHuscHieyfftqab8y8wMk9uhJIjYSeJjxfJ5Pcycs2eaKH//boTJ7VAWRHJJHjqwF0KhOcqH374x+188H6LsTuctM8uHliAiKlleVgqxWIzuayq3Z62TC21BRFQyc/1zvh1/RRARkVxeWpLaPURZEB/ZieN14L56BS5dvEBZPsnOjjZmDRGkBO93d4FnYhyikQhJWKu99Sb12Ela1xJFSvBrMEhfjIUvPJ5nnz9NQzqdpqyjrZX6UGp6aoqyj5M+U1IFacGfySRU7ahgcrerxZS8fs1FB3JobuW9w7LupCxKO1hRvjlr7IbbRWNYiUSCrt8XFmiXsVQllQS3bS3LGms61QgB/yyNYxkBP+yu2klSvHdSFCVBwwjA0OAzGOjvg/GxD7C4uHIAYwUNA1wtl5l5OpJSgifrj4F/dnWXMhWPx8HrmYDz55q58xCrZG/PQ24PDynBDLXVu+B0YwMhc/CiJP4z543lQklwLXEEdXEEdXEEdSl8wY3ri6GQKSr5/VG4FMMvz83mD7BP5HkAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8cac9f2f8cd6b328c060cf8ecf67fbfc.png" xmlns="">0vYG9f81tTkWR-KCGsDBxag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

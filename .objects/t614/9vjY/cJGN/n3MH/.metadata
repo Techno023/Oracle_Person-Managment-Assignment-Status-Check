@@ -1,0 +1,16 @@
+﻿{
+  "Name": "LoginError",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "n3MHnrBiQEyrVsTrwwHdTg",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/n3MHnrBiQEyrVsTrwwHdTg",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/cJGN3L2260SXq0YK8kKFNw",
+  "Created": "2025-01-28T11:08:19.5402881Z",
+  "Updated": "2025-06-26T07:57:42.3020707Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iSEuxy_pxkmfyVDQH8vwAA" Reference="RrhmqsXZCUeKwls8dVqWIw/VMvZ0mfd7ki0FuTrz2pgDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=itemNode_workforce_management_person_management&amp;_afrLoop=31733526819621260&amp;_afrWindowMode=0&amp;_afrWindowId=qmv74hoyz&amp;_adf.ctrl-state=12snrnxw82_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1272&amp;_afrMFH=567&amp;_afrMFDW=1280&amp;_afrMFDH=720&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=144&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" DesignTimeRectangle="952, 544, 394, 42" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='x25' aaname=' Keywords' /&gt;" Guid="969b0d7a-5e86-40d9-b1a6-334c11eae31a" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='6xcx257sw' title='Search Person - Person Management - Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="857, 555, 86, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='af_query_criterion::label-text' type='' tag='LABEL' aaname='Keywords' check:innerText='Keywords' /&gt;" Guid="048283ae-c500-4c16-b299-1f7f47482ce2" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7fa49c357f49fc6d9db0f1a5876a4bc3.png" xmlns="">0DpCl53f9MEWydZXa2kpYbQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Person Management",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "BhOyvqP0nEGYs9wiHpXssA",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/BhOyvqP0nEGYs9wiHpXssA",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/h9jCXAwUPk69C_A9MMiEmA",
+  "Created": "2025-01-28T09:19:10.9098819Z",
+  "Updated": "2025-06-26T08:15:19.45478Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

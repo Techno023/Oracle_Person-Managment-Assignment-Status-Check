@@ -1,0 +1,16 @@
+﻿{
+  "Name": "SearchError",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "ALVetq7SlkKhrPUitD5e5Q",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/ALVetq7SlkKhrPUitD5e5Q",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/BhOyvqP0nEGYs9wiHpXssA",
+  "Created": "2025-01-28T11:49:38.9612229Z",
+  "Updated": "2025-06-26T08:26:40.9366455Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qgVbE-PDVUm4OrtjoXqs4A" Reference="RrhmqsXZCUeKwls8dVqWIw/0JedlubOhEmIxKeKk_cH_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://login-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/oam/server/obrareq.cgi?encquery%3D7jt7PJmZ2QEeZNIxjQ5ylAOqAC3jras%2BU9HZ%2Fs0hWBF6bGp9eRyMg6SK5Ppi6WeJuF8Nvm3qlw3PxmxPx6Cpp%2FqluIBLBcG%2F%2B2LYjQvfkiHBYEWGRlF0ltwReErKcDW6uAn%2BP4sqita71NaSi0b3fokAcaqmXnSEsgAL4A0Siovd1ZRbggdLU1lqBoJThGrzV41e5gWF4KnFNeWbp3WEOipvhwYewYu%2BxYB%2FtZzSj8fW3SJZ%2FOEAafpdidrS5106YsvMeE3emaCsCISaL%2FX5PO0RicnNr%2Bwae5KGwFYql6RyWW%2BJsh40zm9IhIGTQaCSqufHjY7%2FgYWmpXVL0O9XZbAcjC7uBcCvHNLQf9LIzEtwEr0HdX1CRH73%2BR37GhJatcW6h%2FR%2FXDQQFGCeikzLebSIowEHoYoPcQ3APqzp8vHOy7yvSzLxXXAu9Ba7rz6Z%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Dcafcab770d85ddc0817518ba57539a72cc758615&amp;ECID-Context=1.006BBx2Yd5eComV6y3nZ6G002az00003K3%3BkXjE" CVScreenId="a224ff16-d661-4e68-bf9b-9c64e2ed8bb1" CvElementArea="714, 820, 493, 57" CvType="InputBox" DesignTimeRectangle="670, 817, 579, 44" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='textInput' aaname='' /&gt;" Guid="1b893d78-c647-4e25-8508-f15042a32cdc" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='v89s9gm' title='Sign In' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a224ff16-d661-4e68-bf9b-9c64e2ed8bb1" CvTextArea="714, 789, 93, 19" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="670, 787, 83, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='passwordLabel' tag='LABEL' type='' class='' aaname='Password' check:innerText='Password' /&gt;" Guid="60af6095-cb5f-4a35-91e3-3ddffe211095" ImageBase64="" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="150f0454fab6ef89225a45cd1c80f295.png" xmlns="">0Glq3mkcgZEi06HlQSx6xCA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

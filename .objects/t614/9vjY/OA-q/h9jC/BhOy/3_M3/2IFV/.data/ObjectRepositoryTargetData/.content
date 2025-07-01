@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GpxOcPDXrESc0R4u2RIDDA" Reference="RrhmqsXZCUeKwls8dVqWIw/2IFV2jLg-0qU71x7kfIt4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FndOverview" CVScreenId="b1aebe3d-3375-4442-a606-33309240bc65" DesignTimeRectangle="1181, 692, 607, 42" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl isleaf='1' type='' tag='TD' class='x18w xk7' /&gt;" Guid="8f7a00dc-71ce-4b27-9312-253d9f3ec9ad" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='17o01ggzyi' title='Employment - Person Management - Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b1aebe3d-3375-4442-a606-33309240bc65" CvTextArea="1002, 803, 178, 25" CvTextArgument="Assignment Status" CvType="Text" DesignTimeRectangle="1004, 699, 177, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='af_panelLabelAndMessage_label-text' aaname='Assignment Status' check:innerText='Assignment Status' /&gt;" Guid="e0847047-a5d4-4f6e-84fe-b8fd4429f619" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="544aeefa6ef7ed4a977661d1ae427655.png" xmlns="">0WXA0xwGidkWs08r7vU4s3Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

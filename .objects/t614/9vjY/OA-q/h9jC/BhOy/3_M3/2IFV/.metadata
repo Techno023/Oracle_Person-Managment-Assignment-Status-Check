@@ -1,0 +1,16 @@
+﻿{
+  "Name": "AssigmentStatus",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "2IFV2jLg-0qU71x7kfIt4A",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/2IFV2jLg-0qU71x7kfIt4A",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/3_M3_462KkqDxvR6XoVyNQ",
+  "Created": "2025-01-28T12:20:32.0318615Z",
+  "Updated": "2025-06-26T08:43:22.3572568Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="97UCz-EZHkWdBR26fbEw9Q" Reference="RrhmqsXZCUeKwls8dVqWIw/D21NxrH2Wk-fNFm3x07wDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FndOverview" CVScreenId="a9a15b38-4ef5-4695-94a0-56a9b7b0c806" CvTextArea="68, 344, 264, 49" CvTextArgument="Employment" CvType="Text" DesignTimeRectangle="71, 507, 258, 54" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='' check:innerText='Employment' /&gt;" Guid="6e65d411-38cc-4b09-9500-39de145c15ab" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='17o01ggzyi' title='Employment - Person Management - Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a9a15b38-4ef5-4695-94a0-56a9b7b0c806" CvTextArea="44, 255, 111, 22" CvTextArgument="Employment" CvType="Text" DesignTimeRectangle="45, 425, 108, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='  *PAR Remark Code PAR Comment  *Start Date *End Date *Primary Indicator Pay Table ID Grade Step Pay Basis Pay Plan' tag='TABLE' /&gt;&lt;webctrl aaname='Employment' type='' class='xob p_AFSelected' tag='A' check:innerText='Employment' /&gt;" Guid="da430f2b-3257-424a-905d-424cf0da84c1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c764d359441b795769c86846486e691a.png" xmlns="">0yrn5yJ0CmkCaPQGETBudDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

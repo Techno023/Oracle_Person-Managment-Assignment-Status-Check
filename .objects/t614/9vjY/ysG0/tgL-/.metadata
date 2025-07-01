@@ -1,0 +1,16 @@
+﻿{
+  "Name": "SignOut_Button",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "tgL-VBEynUKrmFGm2yQ3zw",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/tgL-VBEynUKrmFGm2yQ3zw",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/ysG05p3FwkONpvCAt8CJcw",
+  "Created": "2025-01-28T13:09:53.3415947Z",
+  "Updated": "2025-06-27T06:26:39.1400853Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

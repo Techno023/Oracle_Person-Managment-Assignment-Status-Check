@@ -1,0 +1,16 @@
+﻿{
+  "Name": "EmployeeDetailPage",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "D21NxrH2Wk-fNFm3x07wDw",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/D21NxrH2Wk-fNFm3x07wDw",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/3_M3_462KkqDxvR6XoVyNQ",
+  "Created": "2025-01-28T12:22:32.0012778Z",
+  "Updated": "2025-06-26T08:43:46.3161769Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

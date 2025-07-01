@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Program Overview Error Screen",
+  "Type": "Screen",
+  "Id": "yAgpp1eEh0q6jI3fwSgXQw",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/yAgpp1eEh0q6jI3fwSgXQw",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/9vjY925ePEur_KfHGlyPPA",
+  "Created": "2025-06-26T08:08:50.6415954Z",
+  "Updated": "2025-06-26T08:09:53.8791423Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

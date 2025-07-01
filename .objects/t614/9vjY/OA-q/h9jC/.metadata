@@ -1,0 +1,17 @@
+﻿{
+  "Name": "My Client Group",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "h9jCXAwUPk69C_A9MMiEmA",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/h9jCXAwUPk69C_A9MMiEmA",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/OA-qzqW_pEWMeU9NjgSSXg",
+  "Created": "2025-01-28T09:18:21.3722482Z",
+  "Updated": "2025-06-26T08:15:01.4013759Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

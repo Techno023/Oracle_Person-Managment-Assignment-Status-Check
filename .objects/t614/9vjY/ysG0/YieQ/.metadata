@@ -1,0 +1,16 @@
+﻿{
+  "Name": "SettingsTab",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "YieQSE_F80-pW8Dm2JMT8A",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/YieQSE_F80-pW8Dm2JMT8A",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/ysG05p3FwkONpvCAt8CJcw",
+  "Created": "2025-01-28T13:07:46.1311905Z",
+  "Updated": "2025-06-27T06:25:54.4468669Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

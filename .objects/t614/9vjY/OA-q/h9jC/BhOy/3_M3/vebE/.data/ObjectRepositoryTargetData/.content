@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1zboNGX9lUexYpSKw9Nybw" Reference="RrhmqsXZCUeKwls8dVqWIw/vebEjTrNn0a-lgeJf_OpPA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FndOverview" CVScreenId="e944211b-eb39-423f-a981-288becc805e5" DesignTimeRectangle="95, 904, 112, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='xmv' aaname='Aaron, James' /&gt;" Guid="5b004872-b1dc-4155-9ccc-8a616474feb9" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='d67ge35k8' title='Search Person - Person Management - Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="77caa2d4-0cfb-4d1f-a2be-c2f74d381945" DesignTimeRectangle="381, 906, 47, 23" ElementType="Text" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='{0}' type='' tag='SPAN' class='x2hi' check:innerText='{0}' /&gt;&quot;, PersonNumber)]" Guid="790ee6ce-38e2-4b28-8706-97d280b1913c" ImageBase64="" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a8cfc1bbc8269ea3803c22ab0233c93f.png" xmlns="">0wTfahhaoaU6mk2rQ85HgmQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="*" Name="PersonNumber" />
+    </scg:List>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

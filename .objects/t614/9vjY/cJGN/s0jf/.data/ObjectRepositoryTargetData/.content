@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uLy5AjiyhEiHk25iSg4boQ" Reference="RrhmqsXZCUeKwls8dVqWIw/s0jfl9LmaU68PvQumy_FwQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="idcs-ea223deea36f48e48d17cba4d93f490f.identity.oraclecloud.com/ui/v1/signin" CVScreenId="8a33dbab-1374-4fd2-92c8-ad8abb90a5af" CvElementArea="667, 837, 294, 48" CvTextArea="783, 852, 61, 22" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="671, 840, 287, 42" DesignTimeScaleFactor="1.2000000476837158" FullSelectorArgument="&lt;webctrl parentid='idcs-signin-basic-signin-form-submit' tag='DIV' class='oj-button-label' innertext='                Sign In' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='idcs-signin-basic-signin-form-submit' tag='DIV' class='oj-button-label' innertext='                Sign In' type='' aaname='                ' check:text='Sign In' /&gt;" Guid="9e387601-170e-49d5-9092-7a14d52fddeb" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='_afr_init_' title='Cloud Sign In' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8a33dbab-1374-4fd2-92c8-ad8abb90a5af" CvElementArea="667, 726, 582, 47" CvType="InputBox" DesignTimeRectangle="670, 727, 579, 44" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='idcs-signin-basic-signin-form-password|input' tag='INPUT' /&gt;" Guid="798c2647-14af-4b0d-b7cb-60c38750f379" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ca61137c6a32626091d96518d5a631c2.png" xmlns="">0hPz9_XxDrk2yg4FBokYtXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a0cTifofIEOKJg3IogaDNg" Reference="RrhmqsXZCUeKwls8dVqWIw/3_M3_462KkqDxvR6XoVyNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fa-esll-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FndOverview" CVScreenId="2fd350a8-afac-43eb-b896-80cb7110939b" CvElementArea="298, 291, 395, 46" CvType="InputBox" DesignTimeRectangle="302, 293, 390, 42" DesignTimeScaleFactor="1.5" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='x25' aaname=' Person Number' /&gt;" Guid="4cc03a6c-9c72-4642-b956-ed4f4df65863" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='cdb0reehw' title='Search Person - Person Management - Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2fd350a8-afac-43eb-b896-80cb7110939b" CvTextArea="158, 305, 136, 16" CvTextArgument="Person Number" CvType="Text" DesignTimeRectangle="159, 304, 134, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='af_query_criterion::label-text' aaname='Person Number' check:innerText='Person Number' /&gt;" Guid="27e9f3c2-a9b7-4f05-88e6-ab385f5c039b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0b50b37e1c659ce7c420d55ca2626a2e.png" xmlns="">0ScMp9_jCp0KtKv9Z5U9Ewg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

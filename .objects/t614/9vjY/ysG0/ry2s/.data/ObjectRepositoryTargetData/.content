@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oKEbbMdZREmU40JJpHTqsQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/fusion_apps/pages/logoutConsent.jsp" CVScreenId="d059f401-7456-46e9-9d76-e668a931b538" CvElementArea="815, 772, 163, 78" CvTextArea="846, 797, 99, 25" CvTextArgument="Confirm" CvType="Button" DesignTimeRectangle="819, 776, 156, 72" DesignTimeScaleFactor="1.5" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='Confirm' tag='BUTTON' type='' class='' aaname=' Confirm' check:innerText='Confirm' /&gt;" Guid="1b046d7b-24df-405e-a593-578d5e739d40" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='7gw87z767' title='Single Sign-Off consent' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fe8e92c03eb72621d57b796370a9379b.png" xmlns="">0eA6DZGvGc0OLqXAf6VtYsw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

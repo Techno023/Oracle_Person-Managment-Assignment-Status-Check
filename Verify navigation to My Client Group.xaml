@@ -1,0 +1,509 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Verify_navigation_to_My_Client_Group" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Verify_navigation_to_My_Client_Group_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="825.3333333333333,2805.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="validUserId" />
+      <Variable x:TypeArguments="ss:SecureString" Name="validPassword" />
+      <Variable x:TypeArguments="x:String" Name="URL" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill process" sap:VirtualizedContainerService.HintSize="520,57.333333333333336" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="msedge">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:KillProcess>
+    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Oracle URL" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="520,57.333333333333336" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+      <ui:GetRobotAsset.Value>
+        <OutArgument x:TypeArguments="x:String">[URL]</OutArgument>
+      </ui:GetRobotAsset.Value>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:GetRobotAsset>
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Oracle Cred" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="520,57.333333333333336" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[validPassword]" Username="[validUserId]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:GetRobotCredential>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="520,2610.6666666666665" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch.Try>
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Oracle Login Screen" sap:VirtualizedContainerService.HintSize="518,2308" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V2" WindowResize="Maximize">
+          <uix:NApplicationCard.AutoGenerationOptions>
+            <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
+              <uix:GenerationOptions.ExpectedOutputs>
+                <scg:List x:TypeArguments="x:String" Capacity="4">
+                  <x:Null />
+                </scg:List>
+              </uix:GenerationOptions.ExpectedOutputs>
+            </uix:GenerationOptions>
+          </uix:NApplicationCard.AutoGenerationOptions>
+          <uix:NApplicationCard.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="" sap:VirtualizedContainerService.HintSize="484,2088.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="PersonName" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NTypeInto ActivateBefore="True" DisplayName="Type 'invalidUserId' in the 'userId' field" sap:VirtualizedContainerService.HintSize="450,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Text="[validUserId]">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="idcs-9ce55e1372984436a905ce467c04f454.identity.oraclecloud.com/ui/v1/signin" CVScreenId="aee55876-53f6-4b9e-befd-57b3d9e0b079" ContentHash="fP51TKGUwk2HxsmG7in4sg" CvElementArea="595, 724, 729, 61" CvType="InputBox" DesignTimeRectangle="598, 727, 724, 55" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='idcs-signin-basic-signin-form-username' tag='INPUT' /&gt;" Guid="6d6bc079-1bcc-4aed-8da5-82f7137108a0" InformativeScreenshot="20fa0855464afe1f433426025d0b42b3.png" IsResponsive="True" Reference="RrhmqsXZCUeKwls8dVqWIw/o2kl7LP4mUOPA67zJHgqHQ" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='_afr_init_' title='Cloud Sign In' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="aee55876-53f6-4b9e-befd-57b3d9e0b079" CvTextArea="596, 695, 121, 22" CvTextArgument="User Name" CvType="Text" DesignTimeRectangle="598, 690, 120, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='oj-component-initnode' aaname='         User Name       ' check:innerText='User Name' /&gt;" Guid="37377d9f-59a6-4ba5-9b50-afb4f5fa9780" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                </uix:NTypeInto>
+                <uix:NTypeInto ActivateBefore="True" DisplayName="Type 'invalidPassword' in the 'password' field" sap:VirtualizedContainerService.HintSize="450,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" SecureText="[validPassword]">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="https://login-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/oam/server/obrareq.cgi?encquery%3D7jt7PJmZ2QEeZNIxjQ5ylAOqAC3jras%2BU9HZ%2Fs0hWBF6bGp9eRyMg6SK5Ppi6WeJuF8Nvm3qlw3PxmxPx6Cpp%2FqluIBLBcG%2F%2B2LYjQvfkiHBYEWGRlF0ltwReErKcDW6uAn%2BP4sqita71NaSi0b3fokAcaqmXnSEsgAL4A0Siovd1ZRbggdLU1lqBoJThGrzV41e5gWF4KnFNeWbp3WEOipvhwYewYu%2BxYB%2FtZzSj8fW3SJZ%2FOEAafpdidrS5106YsvMeE3emaCsCISaL%2FX5PO0RicnNr%2Bwae5KGwFYql6RyWW%2BJsh40zm9IhIGTQaCSqufHjY7%2FgYWmpXVL0O9XZbAcjC7uBcCvHNLQf9LIzEtwEr0HdX1CRH73%2BR37GhJatcW6h%2FR%2FXDQQFGCeikzLebSIowEHoYoPcQ3APqzp8vHOy7yvSzLxXXAu9Ba7rz6Z%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Dcafcab770d85ddc0817518ba57539a72cc758615&amp;ECID-Context=1.006BBx2Yd5eComV6y3nZ6G002az00003K3%3BkXjE" CVScreenId="a224ff16-d661-4e68-bf9b-9c64e2ed8bb1" ContentHash="qgVbE-PDVUm4OrtjoXqs4A" CvElementArea="714, 820, 493, 57" CvType="InputBox" DesignTimeRectangle="670, 817, 579, 44" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='textInput' aaname='' /&gt;" Guid="1b893d78-c647-4e25-8508-f15042a32cdc" InformativeScreenshot="150f0454fab6ef89225a45cd1c80f295.png" Reference="RrhmqsXZCUeKwls8dVqWIw/0JedlubOhEmIxKeKk_cH_Q" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='v89s9gm' title='Sign In' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="a224ff16-d661-4e68-bf9b-9c64e2ed8bb1" CvTextArea="714, 789, 93, 19" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="670, 787, 83, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='passwordLabel' tag='LABEL' type='' class='' aaname='Password' check:innerText='Password' /&gt;" Guid="60af6095-cb5f-4a35-91e3-3ddffe211095" ImageBase64="" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                </uix:NTypeInto>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click on the Login button" sap:VirtualizedContainerService.HintSize="450,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="idcs-ea223deea36f48e48d17cba4d93f490f.identity.oraclecloud.com/ui/v1/signin" CVScreenId="8a33dbab-1374-4fd2-92c8-ad8abb90a5af" ContentHash="uLy5AjiyhEiHk25iSg4boQ" CvElementArea="667, 837, 294, 48" CvTextArea="783, 852, 61, 22" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="671, 840, 287, 42" DesignTimeScaleFactor="1.2000000476837158" FullSelectorArgument="&lt;webctrl parentid='idcs-signin-basic-signin-form-submit' tag='DIV' class='oj-button-label' innertext='                Sign In' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='idcs-signin-basic-signin-form-submit' tag='DIV' class='oj-button-label' innertext='                Sign In' type='' aaname='                ' check:text='Sign In' /&gt;" Guid="9e387601-170e-49d5-9092-7a14d52fddeb" InformativeScreenshot="ca61137c6a32626091d96518d5a631c2.png" Reference="RrhmqsXZCUeKwls8dVqWIw/s0jfl9LmaU68PvQumy_FwQ" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='_afr_init_' title='Cloud Sign In' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="8a33dbab-1374-4fd2-92c8-ad8abb90a5af" CvElementArea="667, 726, 582, 47" CvType="InputBox" DesignTimeRectangle="670, 727, 579, 44" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='idcs-signin-basic-signin-form-password|input' tag='INPUT' /&gt;" Guid="798c2647-14af-4b0d-b7cb-60c38750f379" SearchSteps="Selector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="Label 'My Client Groups'" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Target>
+                        <uix:TargetAnchorable BrowserURL="fa-exgr-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/AtkHomePageWelcome" CVScreenId="59851fdb-f91d-4b19-9152-b555e4f00694" ContentHash="1CJkzqppU0-zYS-6tfX51g" CvElementArea="1563, 137, 43, 41" CvType="Icon" DesignTimeRectangle="1571, 175, 28, 29" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl class='xiz' tag='TABLE' /&gt;&lt;webctrl class='svg-outline' type='' aaname='' tag='path' /&gt;" Guid="c04e8b6e-a680-49a0-9bf9-d4696dfcc944" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAYAAAC4JqlRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFpSURBVFhH7ZRPSwJRFMXn8xQFtQskol0ZZdsUw2VgRi2jkNZi1rq/+8hoXVjr6Y99AMtPMNgHSG6c8U0zc981nSnUxTtwYHjv3vN+mzPW1MQYDdOxAVaXk/T4UHONb2mmH8cCOK6UiQtn0mwvRwLIZTP0Vq+rJ3XhDjPSbjf3BTA9OU6XF2fqGV/t9pdrLsxiR8ri7gmwXchTs/mhon3V7u9oJbngGt9c2NnZ2hQzg+4KMD+boNubqorz5TgOFfd2tXmc4Y4LGcji855FgIPiPn22WirCV/X6iuYSM9q8Z9xhhgtZyJR2QgBetbjeGw0q5DdCi78Zs9jhkir7A3B0qFcLOj89CS1EMXYlBStr5bJpsVqvL8+0nlkLBcYxMpDF1alsmqwn21ZHHaFWlXJJDPuLkckri7dDAKhTamlRDPgPIztYWQ0g7u80ioO/cQNgAAyAATAABsAAjCbAIOxJAxi0RgdgeLbpG25TZfuABhtaAAAAAElFTkSuQmCC" InformativeScreenshot="69b2d9500b696733d514ccec10a7df7c.png" Reference="RrhmqsXZCUeKwls8dVqWIw/FmhClgJ1dUy92F42i37Aog" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='kwy7z8c1x' title='Welcome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="59851fdb-f91d-4b19-9152-b555e4f00694" CvElementArea="1628, 138, 44, 40" CvType="Icon" DesignTimeRectangle="1632, 178, 36, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='xiz' tag='TABLE' /&gt;&lt;webctrl aaname='Favorites and Recent Items' type='' tag='A' class='svg-glob xko p_AFIconOnly' check:text='Favorites and Recent Items' /&gt;" Guid="cd3307cc-10cf-4540-b14b-5cf6483cd939" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAYCAYAAACIhL/AAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKbSURBVFhHrZbLbxJRFMb9e5q4cO2joUKKYH0sTFSUWGNiTHwkxvpaqmmqLRYQjYm1Jf4BVmqxFapLWzApdaFITUsLdFWSipDQ3THfcGBelzIX+JIv4c79zrm/3OHOzL4D+3uoG375Ikh1hYIBYaYddwXQ6eij3d0q45Hy22m3CbOy7grgQjzGaKrisc/CrKw7Brx65TIjmTXo9QhrZNwxYDa7zjhEGxtZKuTzPCJaX1sT1si4I8Bx3yij1HTp4nnTjvpGnwprrbptQEdfL1Wr6sGYnYk05r4uxPkqUaVSIdvhg7paGUsDAmzQe4G+xFWIcvkfHe091MgYTzUODGpQq+1lxU0BT7iddPP6NfL7xijyYZp+rKSoUi7zknoNP35kqg8F/DyrF3qgV2T6vdIbawy4+k31dTcA3f0Ois3P0Z/VDLeypvSvn6amdedzOU5Z02omozC4+u2NHrodDPqfc7S1fqfTFP04Q56zZxr1Rns955QMslYFBm0P0y0OjPs4qiq1vEyvX4Xo9q0bdHrArcvLGLXogV4rqRR3V4W1jTXC/6AREreqW68uGL0KBfV5CY09GxFmmx6SkeEnXFrT1laB7LYjwqyMAYdeWmEtURZuCggbIXObmx1BysLBewLC3YJsBw5uCQh3ColsO3CwJUC4XUhkkNXKKhxsGRA2Qj64e0eY0/rhvSFO1yQDB0sB4jmm1Un3MWFO61PHXZyuCWNRrpmlALW7gQ8EUUZk7YfD/aHWu661FOC78BQvQ7S0+M00j7cEbLz+PZnkKqLw5IRpfi9LASYTCV6GaHLijXINtz089ZaKxSLPEBW3txUQfBEhg/m6EkuLup6tLAVYKpV4GaJP0VnlHd1KyMzPRXlE9HdnR9hb7B76D6hWBsHfow+lAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:VerifyExecutionOptions.Target>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Home Page'" sap:VirtualizedContainerService.HintSize="450,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V4">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="fa-exgr-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/AtkHomePageWelcome" CVScreenId="59851fdb-f91d-4b19-9152-b555e4f00694" ContentHash="1CJkzqppU0-zYS-6tfX51g" CvElementArea="1563, 137, 43, 41" CvType="Icon" DesignTimeRectangle="1571, 175, 28, 29" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl class='xiz' tag='TABLE' /&gt;&lt;webctrl class='svg-outline' type='' aaname='' tag='path' /&gt;" Guid="c04e8b6e-a680-49a0-9bf9-d4696dfcc944" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAYAAAC4JqlRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFpSURBVFhH7ZRPSwJRFMXn8xQFtQskol0ZZdsUw2VgRi2jkNZi1rq/+8hoXVjr6Y99AMtPMNgHSG6c8U0zc981nSnUxTtwYHjv3vN+mzPW1MQYDdOxAVaXk/T4UHONb2mmH8cCOK6UiQtn0mwvRwLIZTP0Vq+rJ3XhDjPSbjf3BTA9OU6XF2fqGV/t9pdrLsxiR8ri7gmwXchTs/mhon3V7u9oJbngGt9c2NnZ2hQzg+4KMD+boNubqorz5TgOFfd2tXmc4Y4LGcji855FgIPiPn22WirCV/X6iuYSM9q8Z9xhhgtZyJR2QgBetbjeGw0q5DdCi78Zs9jhkir7A3B0qFcLOj89CS1EMXYlBStr5bJpsVqvL8+0nlkLBcYxMpDF1alsmqwn21ZHHaFWlXJJDPuLkckri7dDAKhTamlRDPgPIztYWQ0g7u80ioO/cQNgAAyAATAABsAAjCbAIOxJAxi0RgdgeLbpG25TZfuABhtaAAAAAElFTkSuQmCC" InformativeScreenshot="69b2d9500b696733d514ccec10a7df7c.png" Reference="RrhmqsXZCUeKwls8dVqWIw/FmhClgJ1dUy92F42i37Aog" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='kwy7z8c1x' title='Welcome' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="59851fdb-f91d-4b19-9152-b555e4f00694" CvElementArea="1628, 138, 44, 40" CvType="Icon" DesignTimeRectangle="1632, 178, 36, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='xiz' tag='TABLE' /&gt;&lt;webctrl aaname='Favorites and Recent Items' type='' tag='A' class='svg-glob xko p_AFIconOnly' check:text='Favorites and Recent Items' /&gt;" Guid="cd3307cc-10cf-4540-b14b-5cf6483cd939" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAYCAYAAACIhL/AAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKbSURBVFhHrZbLbxJRFMb9e5q4cO2joUKKYH0sTFSUWGNiTHwkxvpaqmmqLRYQjYm1Jf4BVmqxFapLWzApdaFITUsLdFWSipDQ3THfcGBelzIX+JIv4c79zrm/3OHOzL4D+3uoG375Ikh1hYIBYaYddwXQ6eij3d0q45Hy22m3CbOy7grgQjzGaKrisc/CrKw7Brx65TIjmTXo9QhrZNwxYDa7zjhEGxtZKuTzPCJaX1sT1si4I8Bx3yij1HTp4nnTjvpGnwprrbptQEdfL1Wr6sGYnYk05r4uxPkqUaVSIdvhg7paGUsDAmzQe4G+xFWIcvkfHe091MgYTzUODGpQq+1lxU0BT7iddPP6NfL7xijyYZp+rKSoUi7zknoNP35kqg8F/DyrF3qgV2T6vdIbawy4+k31dTcA3f0Ois3P0Z/VDLeypvSvn6amdedzOU5Z02omozC4+u2NHrodDPqfc7S1fqfTFP04Q56zZxr1Rns955QMslYFBm0P0y0OjPs4qiq1vEyvX4Xo9q0bdHrArcvLGLXogV4rqRR3V4W1jTXC/6AREreqW68uGL0KBfV5CY09GxFmmx6SkeEnXFrT1laB7LYjwqyMAYdeWmEtURZuCggbIXObmx1BysLBewLC3YJsBw5uCQh3ColsO3CwJUC4XUhkkNXKKhxsGRA2Qj64e0eY0/rhvSFO1yQDB0sB4jmm1Un3MWFO61PHXZyuCWNRrpmlALW7gQ8EUUZk7YfD/aHWu661FOC78BQvQ7S0+M00j7cEbLz+PZnkKqLw5IRpfi9LASYTCV6GaHLijXINtz089ZaKxSLPEBW3txUQfBEhg/m6EkuLup6tLAVYKpV4GaJP0VnlHd1KyMzPRXlE9HdnR9hb7B76D6hWBsHfow+lAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                </uix:NClick>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Bot login to oracle application successfully&quot;]">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </ui:LogMessage>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'My Client Group'" sap:VirtualizedContainerService.HintSize="450,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V4">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="https://fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/FuseWelcome?_afrLoop=31733347369039040&amp;_afrWindowMode=0&amp;_afrWindowId=tevr50o25&amp;_adf.ctrl-state=391cx4nu1_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1272&amp;_afrMFH=567&amp;_afrMFDW=1280&amp;_afrMFDH=720&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=144&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" ContentHash="Pc_jWU3CiEq4mvzurRBpZA" DesignTimeRectangle="360, 448, 195, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='groupNode_workforce_management' tag='A' type='' class='flat-tabs-text' aaname='My Client Groups' check:innerText='My Client Groups' /&gt;" Guid="5e403a17-7547-47db-bf4d-d3b1cd874784" InformativeScreenshot="1a9ffee1950d3a07c6cdbe3385baad83.png" Reference="RrhmqsXZCUeKwls8dVqWIw/h9jCXAwUPk69C_A9MMiEmA" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='qmv74hoyz' title='Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                  </uix:NClick.Target>
+                  <uix:NClick.VerifyOptions>
+                    <uix:VerifyExecutionOptions DisplayName="Label 'Person Management'" Mode="Appears">
+                      <uix:VerifyExecutionOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionOptions.Retry>
+                      <uix:VerifyExecutionOptions.Target>
+                        <uix:TargetAnchorable BrowserURL="https://fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/FuseWelcome?_afrLoop=31733347369039040&amp;_afrWindowMode=0&amp;_afrWindowId=tevr50o25&amp;_adf.ctrl-state=391cx4nu1_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1272&amp;_afrMFH=567&amp;_afrMFDW=1280&amp;_afrMFDH=720&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=144&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" ContentHash="LEGawVT7KkS9_JVAN__grQ" DesignTimeRectangle="1110, 754, 165, 81" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='itemNode_workforce_management_person_management_0' tag='A' type='' class='app-nav-label flat-grid-nav-label' aaname='Person Management' check:innerText='Person Management' /&gt;" Guid="564417fd-a600-4d94-b4d3-31cb8efc2a3e" InformativeScreenshot="ec70286d2f3e744df83124f7ec4c10d8.png" Reference="RrhmqsXZCUeKwls8dVqWIw/BhOyvqP0nEGYs9wiHpXssA" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='qmv74hoyz' title='Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset Position="BottomRight" X="-55" Y="-25" />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:VerifyExecutionOptions.Target>
+                      <uix:VerifyExecutionOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionOptions.Timeout>
+                    </uix:VerifyExecutionOptions>
+                  </uix:NClick.VerifyOptions>
+                </uix:NClick>
+                <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="Screenshot\screenshot.png" FileNameMode="DateTime" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NTakeScreenshot>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,179.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Bot Navigate to my client groups successfully&quot;]" />
+                <Sequence DisplayName="LogOut to Oracle" sap:VirtualizedContainerService.HintSize="450,534.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SettingsTab'" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/hcmUI/faces/FndOverview" CVScreenId="f796f81e-f3ef-432e-93e2-c70e6b694f7c" ContentHash="BQS1j7SOCEOppbiwbe3new" DesignTimeRectangle="1841, 206, 41, 41" DesignTimeScaleFactor="1.5" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='IMG' class='xjd' aaname='Settings and Actions' /&gt;" Guid="e043fde3-51c0-414e-a1fd-ab0e8691b844" InformativeScreenshot="8cac9f2f8cd6b328c060cf8ecf67fbfc.png" Reference="RrhmqsXZCUeKwls8dVqWIw/YieQSE_F80-pW8Dm2JMT8A" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ckpkq62y4' title='Search Person - Person Management - Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="b57d8637-6866-4b00-babc-78fda2286160" CvElementArea="1784, 174, 32, 31" CvType="Icon" DesignTimeRectangle="1769, 203, 47, 47" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl class='xiz' tag='TABLE' /&gt;&lt;webctrl type='' tag='svg' class='svg-bkgd10 xi6' aaname='' check:text='Open the Manage Presence panel. Current status: Not Available' /&gt;" Guid="38efd930-ad2c-4fee-b89a-66f677e0736b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJqSURBVFhH7ZbvS1NRGMf9d4zCEishK1PLflAUWVKIFBIWRERQtka9SNQs7QeUmWYiERQVSv0Dpm4zLXvjdtcb98Jt2YsJQ1nrxfbU88iu97Szu/OjZMR94LPL/Z7nnH049+6wok0b1kEh4wjq4gjq4gjq4gjq8n8J9vY8gi2lJdyxf4WwIMphTfq8QpJ3u25DKpXKov/JY25/LoQFUQrlRCVfv3pJvd+iUZNk8gdl+2truHN4SD1iGclM39HDB81scOApZQ/udTO9dkj/SEQlI5Ew9VjH6+uOUDY2Osr02iEtiOSTxHuscHieyfftqab8y8wMk9uhJIjYSeJjxfJ5Pcycs2eaKH//boTJ7VAWRHJJHjqwF0KhOcqH374x+188H6LsTuctM8uHliAiKlleVgqxWIzuayq3Z62TC21BRFQyc/1zvh1/RRARkVxeWpLaPURZEB/ZieN14L56BS5dvEBZPsnOjjZmDRGkBO93d4FnYhyikQhJWKu99Sb12Ela1xJFSvBrMEhfjIUvPJ5nnz9NQzqdpqyjrZX6UGp6aoqyj5M+U1IFacGfySRU7ahgcrerxZS8fs1FB3JobuW9w7LupCxKO1hRvjlr7IbbRWNYiUSCrt8XFmiXsVQllQS3bS3LGms61QgB/yyNYxkBP+yu2klSvHdSFCVBwwjA0OAzGOjvg/GxD7C4uHIAYwUNA1wtl5l5OpJSgifrj4F/dnWXMhWPx8HrmYDz55q58xCrZG/PQ24PDynBDLXVu+B0YwMhc/CiJP4z543lQklwLXEEdXEEdXEEdSl8wY3ri6GQKSr5/VG4FMMvz83mD7BP5HkAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Label 'SignOut_Button'" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/FuseWelcome" CVScreenId="59f670ae-52f7-40d8-8284-25e40bf9527f" ContentHash="jxedjrT68EivuADkd28xlQ" CvTextArea="1764, 344, 81, 25" CvTextArgument="Sign Out" CvType="Text" DesignTimeRectangle="1767, 282, 77, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='xny xmv' aaname='Sign Out' check:innerText='Sign Out' /&gt;" Guid="31d14a49-c468-47c4-9909-61f2db6e00cd" InformativeScreenshot="346017f624ced61f3988d3057c8e9ad4.png" Reference="RrhmqsXZCUeKwls8dVqWIw/tgL-VBEynUKrmFGm2yQ3zw" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='7gw87z767' title='Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="d7c886c0-bce9-44ef-8e63-8293e0fa4459" CvTextArea="1242, 276, 307, 39" CvTextArgument="Settings and Actions" CvType="Text" DesignTimeRectangle="1244, 265, 306, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='H1' class='xnw ' aaname='Settings and Actions' check:innerText='Settings and Actions' /&gt;" Guid="87d5e4fa-0b25-46c3-b565-1ea61a17ef7e" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SignOut_Button'" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/FuseWelcome" CVScreenId="59f670ae-52f7-40d8-8284-25e40bf9527f" ContentHash="jxedjrT68EivuADkd28xlQ" CvTextArea="1764, 344, 81, 25" CvTextArgument="Sign Out" CvType="Text" DesignTimeRectangle="1767, 282, 77, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='xny xmv' aaname='Sign Out' check:innerText='Sign Out' /&gt;" Guid="31d14a49-c468-47c4-9909-61f2db6e00cd" InformativeScreenshot="346017f624ced61f3988d3057c8e9ad4.png" Reference="RrhmqsXZCUeKwls8dVqWIw/tgL-VBEynUKrmFGm2yQ3zw" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='7gw87z767' title='Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="d7c886c0-bce9-44ef-8e63-8293e0fa4459" CvTextArea="1242, 276, 307, 39" CvTextArgument="Settings and Actions" CvType="Text" DesignTimeRectangle="1244, 265, 306, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='H1' class='xnw ' aaname='Settings and Actions' check:innerText='Settings and Actions' /&gt;" Guid="87d5e4fa-0b25-46c3-b565-1ea61a17ef7e" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Button 'Confirm SignOut'" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable BrowserURL="idcs-9ce55e1372984436a905ce467c04f454.identity.oraclecloud.com/ui/v1/signin" CVScreenId="aee55876-53f6-4b9e-befd-57b3d9e0b079" ContentHash="fP51TKGUwk2HxsmG7in4sg" CvElementArea="595, 724, 729, 61" CvType="InputBox" DesignTimeRectangle="598, 727, 724, 55" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='idcs-signin-basic-signin-form-username' tag='INPUT' /&gt;" Guid="6d6bc079-1bcc-4aed-8da5-82f7137108a0" InformativeScreenshot="20fa0855464afe1f433426025d0b42b3.png" IsResponsive="True" Reference="RrhmqsXZCUeKwls8dVqWIw/o2kl7LP4mUOPA67zJHgqHQ" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='_afr_init_' title='Cloud Sign In' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target CVScreenId="aee55876-53f6-4b9e-befd-57b3d9e0b079" CvTextArea="596, 695, 121, 22" CvTextArgument="User Name" CvType="Text" DesignTimeRectangle="598, 690, 120, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='oj-component-initnode' aaname='         User Name       ' check:innerText='User Name' /&gt;" Guid="37377d9f-59a6-4ba5-9b50-afb4f5fa9780" SearchSteps="FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </Sequence>
+            </ActivityAction>
+          </uix:NApplicationCard.Body>
+          <uix:NApplicationCard.TargetApp>
+            <uix:TargetApp Area="-11, -11, 1942, 1042" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAASzSURBVFhH7VZbbBRVGP4xEbnYEFKNtwQE443oRgEhWrtdd86Z2W2LsoXtnDPd9oGiYoAUY6JUE+KbidEoiREjJibW+KRoHwiEiLGKGpVeaLfb3e3eZ3ZUqlYfDNDb+s/MmbppGimlDzz0S77sv2fOOf8//3VgEYu4JnFYkcDzaDP8uLNmZb8mr0/sDm9KP8u2pp5R50w8s3mQK3f1NFTfyKqCcIR6xe3/gzPMD8e4f0mc03tyTG7XOflK51Le4PKooSl/G/yKOGpwoutM6soxeiiuShu6ttVc1x3yCW0zMITK+1WpIsfpAYPTdJGTKZORkkWU50cmCdlf0pk/n2PkpZgqr0qoVGgVSGm1MMTrKnWuHMUDY+WXmK5cZoyJF1t05LK90wrd/65srdvPxgtc7oir5JaUShzlUa5Aj6qsyHPl3SKnk+UXoNLzBiOf57n8alqlbVlVbssgs7ZMheysZew1Yv9ae3OqfEhn5FO88xdLueEYYFPn9MOYJlckNRmg1CxBjgdaceNFdwOGYELn8mdpRrZ0hfxLR5oC8MoTjzgWzwFNXg8Um+rgZIPv+mEe2Kgz+gneW+ZZOpZnyr7SPvTCsErXmkzpKTLqWjiV4/LRQVVeneYU2oKquHZ+SOId/SqpKHB6GMM5aYcFiZ4djDfSu/Ht6X6T0THXAHz774e4cvuwpogrrh4JNCLK6U0FLp2eDgUjE+jhg5Dn5KRlkTBgAg1q/SuiQEftHOp2juh8cguc5wFAhSpWxiWRkFgZ0rdoADUttziuoUYirNybbAyIowuHaFiBgbCyFl2PJe5HA2ipoNI/AJvFhGWNZQA+7OsNeSu7t1eLYwuHnh010Bf2V2Bz+84xwEl2QPeP2zGxXMJJX3eDt/Ln0MIb0L3DB71hqcLKMTcEyHEoMMlwFwxGzbgauD/JguLYwiEWDkB0Z2AdlmTW1VdgZAQNkI8La9AlZDLD5D0XWmrhY2WzOHr1eMtbDaPNMmQ4jaByrDhHHza4rwG71x6MP2amCAOjZ+MsuCaFWbtQsMuQKbdiL/jGZBh/bNlYjuNo0Asw1EjuwJb5E8bf8oBwjdKBjehmHVvlO/4acc2Vo/mBO/EFJawAaTW6+32cFfaAsxuRRs/FGV0HUy0UsrZr6D+uF6yOhUPjRIorvjNhurz0wUFolraKay+P56s2QunFBvghLC0b1vxVmGdfoGK72mwycjGjKU+XGh8DwKTDVhm8Ad3zJj6c3uRMQfpngZNTOSa9gd542YjI7cWmQLseUWwaKNuMONQFC8gso6+jV0+gV3+3x7KIO3bdSYPJR841khWD7kRMcQJRVVqFHx5v44YL00ZMH3Jlaww7v67s7pmNpkZtlq1dwhx7L8GDlRltRo45nqhbjoMIJyOJmjNH8zz4nwF0Cks8kWd07wDzrUxqktA6A18+5YOWTQ9BktE1WU725pnUickTx9H8K3KkqFFBS5ZHzFlor3M6gq7/DZUmMbTHcd4cwE+y9a8FpCWdqOOyeO7xh6G0ux5O1VcvHQiT23q1uvvOavUPZnZt9+RbQ8gGTwGpz0LrWX5XyBOL1G+IYYWd3uZdVvpIg/2YmItYxDUIgH8Bt0S8Mt9rTRYAAAAASUVORK5CYII=" InformativeScreenshot="701d96b235ea53eed27aa7a2e3b2ec1a.jpg" Selector="&lt;html app='msedge.exe' htmlwindowname='_afr_init_' title='Cloud Sign In' /&gt;" Title="Cloud Sign In" Url="[URL]" Version="V1" />
+          </uix:NApplicationCard.TargetApp>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </uix:NApplicationCard>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="522.6666666666666,23.333333333333332" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill process" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="msedge">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:KillProcess>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+      <TryCatch.Finally>
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="416,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </TryCatch.Finally>
+    </TryCatch>
+  </Sequence>
+</Activity>

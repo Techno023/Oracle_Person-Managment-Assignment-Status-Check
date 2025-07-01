@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/yashtgcxoitv/DefaultTenant/testmanager_/",
+  "defaultProject": {
+    "id": "d9fc7cb6-305f-0000-ed0b-0b486455d990",
+    "name": "Oracle Assignment Status Check",
+    "key": "OASC"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Oracle_Person Managment Assignment Status Check",
+  "projectId": "58bd2d3b-9a97-466b-bd89-d66bef362f95",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "24.10.7",
+    "UiPath.Testing.Activities": "24.10.1",
+    "UiPath.UIAutomation.Activities": "24.10.8"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.8.0",
+  "projectVersion": "1.1.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "9cab8774-d898-44bd-b929-30954381a2bd",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ef263aaa-a09c-45f7-99b1-169214bdd654",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify login with valid credentials.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "aeceb912-b1b8-4465-8c78-93715ed55857",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify login with invalid credentials.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "08ad5132-4d58-4bad-af1f-2080dc98342b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify navigation to My Client Group.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "43e248b4-9557-4a0d-b069-9b82f3aaa896",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify navigation to Person Management.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1d02eb4d-7e55-4099-a552-026480005d62",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify search functionality in Person Management.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "016f22b6-0583-4f1f-a409-c67d1b326e36",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify search with empty keyword field.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5b461d99-098e-4b01-8152-72dd162f969b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify search functionality with special characters in person name.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "49065c00-918b-40eb-bd49-34f59bff5e3b",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Verify assignment status for active person.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

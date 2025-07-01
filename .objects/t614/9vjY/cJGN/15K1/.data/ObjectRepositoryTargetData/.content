@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="b_p1FDhQD0mZv0oBROI2tw" Reference="RrhmqsXZCUeKwls8dVqWIw/15K180iSAEuTCqUUoswDiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="idcs-ea223deea36f48e48d17cba4d93f490f.identity.oraclecloud.com/ui/v1/signin" CVScreenId="d693865e-4be2-4a36-a5ad-1312981e28a0" CvElementArea="668, 708, 582, 47" CvType="InputBox" DesignTimeRectangle="670, 710, 579, 43" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='idcs-signin-basic-signin-form-username' tag='INPUT' aaname='         User Name       ' /&gt;" Guid="d3925493-929c-4f17-bac0-6270dbd1955e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='_afr_init_' title='Cloud Sign In' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d693865e-4be2-4a36-a5ad-1312981e28a0" CvTextArea="668, 684, 99, 18" CvTextArgument="User Name" CvType="Text" DesignTimeRectangle="670, 680, 96, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='oj-component-initnode' aaname='         User Name       ' check:innerText='User Name' /&gt;" Guid="f7d0f19d-4ca9-4251-9b19-b1a618bd2a53" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6461fe63c647822fffafea798b6fd2ef.png" xmlns="">0-1IhCfUqrkSg9c8sgSz_3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "LogOut",
+  "Type": "Screen",
+  "Id": "ysG05p3FwkONpvCAt8CJcw",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/ysG05p3FwkONpvCAt8CJcw",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/9vjY925ePEur_KfHGlyPPA",
+  "Created": "2025-01-28T13:06:58.1806685Z",
+  "Updated": "2025-01-28T13:07:07.6013608Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

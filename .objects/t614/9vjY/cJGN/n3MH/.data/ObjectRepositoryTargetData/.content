@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lMadhlJluUGq3V-FLgt6Uw" Reference="RrhmqsXZCUeKwls8dVqWIw/n3MHnrBiQEyrVsTrwwHdTg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="idcs-ea223deea36f48e48d17cba4d93f490f.identity.oraclecloud.com/ui/v1/signin" CVScreenId="21e2a5ef-bc34-4b77-a3ff-1a25f8c0f8c9" CvTextArea="699, 606, 266, 23" CvType="AnyWordGroup" DesignTimeRectangle="701, 603, 263, 25" DesignTimeScaleFactor="1.2000000476837158" ElementType="Text" FullSelectorArgument="&lt;webctrl id='idcs-app-shell-message-content' tag='SPAN' aaname='           Invalid username or password.         ' /&gt;" Guid="2192b44d-ead2-4aca-9180-3156596b2fba" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='_afr_init_' title='Cloud Sign In' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b5c0e744-e619-4727-a663-82c8444e4e58" CvTextArea="668, 450, 325, 22" CvTextArgument="Oracle Cloud Account Sign In" CvType="Text" DesignTimeRectangle="670, 428, 323, 54" ElementType="Text" FullSelectorArgument="&lt;webctrl id='idcs-app-shell-section-login-text' tag='H2' /&gt;" Guid="8ceb777d-5a23-4070-8d73-768fc491a4b8" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bb2b760ead6df18d58529dcfa9342e6c.png" xmlns="">0-W0Sc8bn7EGpG-B_2Q24QA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

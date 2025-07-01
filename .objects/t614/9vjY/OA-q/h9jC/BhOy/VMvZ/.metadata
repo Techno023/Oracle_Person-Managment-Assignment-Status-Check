@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Keyword",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "VMvZ0mfd7ki0FuTrz2pgDA",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/VMvZ0mfd7ki0FuTrz2pgDA",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/BhOyvqP0nEGYs9wiHpXssA",
+  "Created": "2025-01-28T09:20:10.0903131Z",
+  "Updated": "2025-06-26T08:20:16.1597594Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

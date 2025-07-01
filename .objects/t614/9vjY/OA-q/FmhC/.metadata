@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Home Page",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "FmhClgJ1dUy92F42i37Aog",
+  "Reference": "RrhmqsXZCUeKwls8dVqWIw/FmhClgJ1dUy92F42i37Aog",
+  "ParentRef": "RrhmqsXZCUeKwls8dVqWIw/OA-qzqW_pEWMeU9NjgSSXg",
+  "Created": "2025-06-26T08:11:47.520996Z",
+  "Updated": "2025-06-26T08:14:01.1712744Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

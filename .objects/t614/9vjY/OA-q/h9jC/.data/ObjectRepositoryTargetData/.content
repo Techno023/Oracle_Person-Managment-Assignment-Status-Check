@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Pc_jWU3CiEq4mvzurRBpZA" Reference="RrhmqsXZCUeKwls8dVqWIw/h9jCXAwUPk69C_A9MMiEmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/FuseWelcome?_afrLoop=31733347369039040&amp;_afrWindowMode=0&amp;_afrWindowId=tevr50o25&amp;_adf.ctrl-state=391cx4nu1_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1272&amp;_afrMFH=567&amp;_afrMFDW=1280&amp;_afrMFDH=720&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=144&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" DesignTimeRectangle="360, 448, 195, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='groupNode_workforce_management' tag='A' type='' class='flat-tabs-text' aaname='My Client Groups' check:innerText='My Client Groups' /&gt;" Guid="5e403a17-7547-47db-bf4d-d3b1cd874784" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='qmv74hoyz' title='Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1a9ffee1950d3a07c6cdbe3385baad83.png" xmlns="">0Fro6k-KrrEqX2eV-Vie3SA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

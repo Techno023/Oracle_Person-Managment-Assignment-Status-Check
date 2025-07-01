@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LEGawVT7KkS9_JVAN__grQ" Reference="RrhmqsXZCUeKwls8dVqWIw/BhOyvqP0nEGYs9wiHpXssA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/FuseWelcome?_afrLoop=31733347369039040&amp;_afrWindowMode=0&amp;_afrWindowId=tevr50o25&amp;_adf.ctrl-state=391cx4nu1_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1272&amp;_afrMFH=567&amp;_afrMFDW=1280&amp;_afrMFDH=720&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=144&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0" DesignTimeRectangle="1110, 754, 165, 81" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='itemNode_workforce_management_person_management_0' tag='A' type='' class='app-nav-label flat-grid-nav-label' aaname='Person Management' check:innerText='Person Management' /&gt;" Guid="564417fd-a600-4d94-b4d3-31cb8efc2a3e" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='qmv74hoyz' title='Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomRight" X="-55" Y="-25" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="ec70286d2f3e744df83124f7ec4c10d8.png" xmlns="">0HYnSwLbQ6UquS00SOCxUwQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
