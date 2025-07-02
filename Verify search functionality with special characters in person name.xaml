@@ -210,7 +210,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="842.6666666666666,423.37333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="1024,4457.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="PersonName" />
       <Variable x:TypeArguments="x:String" Name="validUserId" />
@@ -222,7 +222,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill process" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="msedge">
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill process" sap:VirtualizedContainerService.HintSize="1024,57.333333333333336" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="msedge">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -230,7 +230,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:KillProcess>
-    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Oracle URL" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
+    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Oracle URL" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="1024,57.333333333333336" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
       <ui:GetRobotAsset.Value>
         <OutArgument x:TypeArguments="x:String">[URL]</OutArgument>
       </ui:GetRobotAsset.Value>
@@ -241,7 +241,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:GetRobotAsset>
-    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Oracle Cred" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[validPassword]" Username="[validUserId]">
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Oracle Cred" CacheStrategy="None" DisplayName="Get Credential" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="1024,57.333333333333336" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[validPassword]" Username="[validUserId]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -249,15 +249,15 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:GetRobotCredential>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1024,4262.666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Oracle Login Screen" sap:VirtualizedContainerService.HintSize="1022,4000" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" ScopeGuid="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Oracle Login Screen" sap:VirtualizedContainerService.HintSize="1022,3960" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V2" WindowResize="Maximize">
           <uix:NApplicationCard.AutoGenerationOptions>
             <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
               <uix:GenerationOptions.ExpectedOutputs>

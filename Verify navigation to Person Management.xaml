@@ -208,7 +208,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="825.3333333333333,3376" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="825.3333333333333,3336" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="validUserId" />
       <Variable x:TypeArguments="ss:SecureString" Name="validPassword" />
@@ -248,9 +248,9 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:GetRobotCredential>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="520,3181.3333333333335" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="520,3141.3333333333335" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Oracle Login Screen" sap:VirtualizedContainerService.HintSize="518,2878.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="7c7f4d9f-0bca-427a-aae0-084630255889" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Oracle Login Screen" sap:VirtualizedContainerService.HintSize="518,2838.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7c7f4d9f-0bca-427a-aae0-084630255889" Version="V2" WindowResize="Maximize">
           <uix:NApplicationCard.AutoGenerationOptions>
             <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
               <uix:GenerationOptions.ExpectedOutputs>

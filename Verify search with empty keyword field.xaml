@@ -250,7 +250,7 @@
     </ui:GetRobotCredential>
     <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="418,328" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Oracle Login Screen" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="Simulate" ScopeGuid="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V2" WindowResize="Maximize">
+        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Oracle Login Screen" sap:VirtualizedContainerService.HintSize="416,25.333333333333332" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" ScopeGuid="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Version="V2" WindowResize="Maximize">
           <uix:NApplicationCard.AutoGenerationOptions>
             <uix:GenerationOptions ExpectedInputs="{x:Null}" Prompt="{x:Null}" Url="{x:Null}">
               <uix:GenerationOptions.ExpectedOutputs>
