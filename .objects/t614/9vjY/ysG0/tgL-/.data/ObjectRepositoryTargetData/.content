@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="jxedjrT68EivuADkd28xlQ" Reference="RrhmqsXZCUeKwls8dVqWIw/tgL-VBEynUKrmFGm2yQ3zw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="TMJ8zlMSx06JcLJ7f6MjIw" Reference="RrhmqsXZCUeKwls8dVqWIw/tgL-VBEynUKrmFGm2yQ3zw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fa-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/fscmUI/faces/FuseWelcome" CVScreenId="59f670ae-52f7-40d8-8284-25e40bf9527f" CvTextArea="1764, 344, 81, 25" CvTextArgument="Sign Out" CvType="Text" DesignTimeRectangle="1767, 282, 77, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='xny xmv' aaname='Sign Out' check:innerText='Sign Out' /&gt;" Guid="31d14a49-c468-47c4-9909-61f2db6e00cd" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='7gw87z767' title='Oracle Fusion Cloud Applications' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
       <TargetAnchorable.Anchors>
@@ -7,7 +7,7 @@
           <Target CVScreenId="d7c886c0-bce9-44ef-8e63-8293e0fa4459" CvTextArea="1242, 276, 307, 39" CvTextArgument="Settings and Actions" CvType="Text" DesignTimeRectangle="1244, 265, 306, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' tag='TABLE' /&gt;&lt;webctrl type='' tag='H1' class='xnw ' aaname='Settings and Actions' check:innerText='Settings and Actions' /&gt;" Guid="87d5e4fa-0b25-46c3-b565-1ea61a17ef7e" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="346017f624ced61f3988d3057c8e9ad4.png" xmlns="">0gMrafOIWeE20-qBsDuk7cA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc93009c75094838b687621e5aee7c58.png" xmlns="">0TB_4j1lrI0GRJvUYXIUbxA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>

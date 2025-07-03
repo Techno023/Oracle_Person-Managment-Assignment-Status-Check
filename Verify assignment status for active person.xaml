@@ -208,7 +208,7 @@
       <AssemblyReference>UiPath.Platform</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="825.3333333333333,6260" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="529.3333333333333,6260" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="activePersonKeyword" />
       <Variable x:TypeArguments="ss:SecureString" Name="validPassword" />
@@ -275,7 +275,7 @@
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <uix:NTypeInto ActivateBefore="True" DisplayName="Type 'invalidUserId' in the 'userId' field" sap:VirtualizedContainerService.HintSize="450,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Text="[validUserId]">
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type 'invalidUserId' in the 'userId' field" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="450,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" Text="[validUserId]">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="idcs-9ce55e1372984436a905ce467c04f454.identity.oraclecloud.com/ui/v1/signin" CVScreenId="aee55876-53f6-4b9e-befd-57b3d9e0b079" ContentHash="fP51TKGUwk2HxsmG7in4sg" CvElementArea="595, 724, 729, 61" CvType="InputBox" DesignTimeRectangle="598, 727, 724, 55" DesignTimeScaleFactor="1.5" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='idcs-signin-basic-signin-form-username' tag='INPUT' /&gt;" Guid="6d6bc079-1bcc-4aed-8da5-82f7137108a0" InformativeScreenshot="20fa0855464afe1f433426025d0b42b3.png" IsResponsive="True" Reference="RrhmqsXZCUeKwls8dVqWIw/o2kl7LP4mUOPA67zJHgqHQ" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='_afr_init_' title='Cloud Sign In' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
@@ -286,7 +286,7 @@
                     </uix:TargetAnchorable>
                   </uix:NTypeInto.Target>
                 </uix:NTypeInto>
-                <uix:NTypeInto ActivateBefore="True" DisplayName="Type 'invalidPassword' in the 'password' field" sap:VirtualizedContainerService.HintSize="450,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" SecureText="[validPassword]">
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type 'invalidPassword' in the 'password' field" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="450,254.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="cfd5e058-1f49-4793-94e7-2c37fe552c5e" SecureText="[validPassword]">
                   <uix:NTypeInto.Target>
                     <uix:TargetAnchorable BrowserURL="https://login-etap-dev6-saasfademo1.ds-fa.oraclepdemos.com/oam/server/obrareq.cgi?encquery%3D7jt7PJmZ2QEeZNIxjQ5ylAOqAC3jras%2BU9HZ%2Fs0hWBF6bGp9eRyMg6SK5Ppi6WeJuF8Nvm3qlw3PxmxPx6Cpp%2FqluIBLBcG%2F%2B2LYjQvfkiHBYEWGRlF0ltwReErKcDW6uAn%2BP4sqita71NaSi0b3fokAcaqmXnSEsgAL4A0Siovd1ZRbggdLU1lqBoJThGrzV41e5gWF4KnFNeWbp3WEOipvhwYewYu%2BxYB%2FtZzSj8fW3SJZ%2FOEAafpdidrS5106YsvMeE3emaCsCISaL%2FX5PO0RicnNr%2Bwae5KGwFYql6RyWW%2BJsh40zm9IhIGTQaCSqufHjY7%2FgYWmpXVL0O9XZbAcjC7uBcCvHNLQf9LIzEtwEr0HdX1CRH73%2BR37GhJatcW6h%2FR%2FXDQQFGCeikzLebSIowEHoYoPcQ3APqzp8vHOy7yvSzLxXXAu9Ba7rz6Z%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2%26cksum%3Dcafcab770d85ddc0817518ba57539a72cc758615&amp;ECID-Context=1.006BBx2Yd5eComV6y3nZ6G002az00003K3%3BkXjE" CVScreenId="a224ff16-d661-4e68-bf9b-9c64e2ed8bb1" ContentHash="qgVbE-PDVUm4OrtjoXqs4A" CvElementArea="714, 820, 493, 57" CvType="InputBox" DesignTimeRectangle="670, 817, 579, 44" DesignTimeScaleFactor="1.2000000476837158" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='textInput' aaname='' /&gt;" Guid="1b893d78-c647-4e25-8508-f15042a32cdc" InformativeScreenshot="150f0454fab6ef89225a45cd1c80f295.png" Reference="RrhmqsXZCUeKwls8dVqWIw/0JedlubOhEmIxKeKk_cH_Q" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='v89s9gm' title='Sign In' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                       <uix:TargetAnchorable.Anchors>
